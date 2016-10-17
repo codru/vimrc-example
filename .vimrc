@@ -72,7 +72,18 @@ let g:ctrlp_custom_ignore = 'node_modules\|git\|idea'
 let g:php_cs_fixer_level = "psr2"
 let g:php_cs_fixer_verbose = 1
 
+"/
+"/ PHPQA
+"/
 
+" Don't run messdetector on save (default = 1)
+let g:phpqa_messdetector_autorun = 0
+
+" Don't run codesniffer on save (default = 1)
+let g:phpqa_codesniffer_autorun = 0
+
+" Show code coverage on load (default = 0)
+let g:phpqa_codecoverage_autorun = 1
 
 
 "-----------Mappings-----------"
